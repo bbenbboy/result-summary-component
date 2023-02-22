@@ -605,16 +605,12 @@ video {
   width: 10rem;
 }
 
-.w-80 {
-  width: 20rem;
+.w-auto {
+  width: auto;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .flex-wrap {
@@ -748,14 +744,6 @@ video {
   font-family: HankenMedium, sans-serif;
 }
 
-.font-hankenRegular {
-  font-family: HankenRegular, sans-regular;
-}
-
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
 .text-3xl {
   font-size: 1.953rem;
 }
@@ -873,34 +861,12 @@ video {
   --tw-gradient-to: #7857FF;
 }
 
-@media (min-width: 640px) {
-  .sm\:flex-wrap {
-    flex-wrap: wrap;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:w-80 {
     width: 20rem;
   }
 
-  .md\:flex-wrap {
-    flex-wrap: wrap;
-  }
-
   .md\:rounded-3xl {
     border-radius: 1.5rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:flex-wrap {
-    flex-wrap: wrap;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:flex-wrap {
-    flex-wrap: wrap;
   }
 }
